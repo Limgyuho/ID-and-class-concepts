@@ -1,0 +1,21 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block; 
+}
+body{
+    text-align: center;
+}
+
+/*클래스와 아이디중 우선순위는 아이디 이다*/
+/*아이디 지정 방법*/
+#a2 {
+    background-color: green;
+}
+/*클래스 지정방법*/
+/*클래스의 장점은 여러개를 사용할수 있다*/
+.c3{
+    background-color: gold;
+}
+/*div#a1의 의미는 div인것과 동시에 a1인것*/
